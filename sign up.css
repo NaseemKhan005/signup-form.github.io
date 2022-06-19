@@ -1,0 +1,97 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+	--inset-shadow: 0 0 5px rgb(238, 237, 237) inset,
+		0 0 5px rgb(240, 238, 238) inset;
+	--outset-shadow: 0 0 4px rgb(237, 236, 236), 0 0 4px rgb(237, 236, 236);
+}
+
+
+/* container */
+.container {
+	width: 350px;
+	height: auto;
+	margin: 30px auto;
+	padding: 10px;
+	text-align: center;
+	box-shadow: var(--inset-shadow);
+	border-radius: 13px;
+}
+
+
+
+/* logo */
+.logo h1 {
+	font-family: Verdana, sans-serif;
+	font-size: 45px;
+	font-weight: lighter;
+	padding: 30px;
+}
+
+
+
+/* form */
+form {
+	display: flex;
+	flex-direction: column;
+}
+form input {
+	padding: 15px 19px;
+	margin: 5px 15px;
+	border-radius: 30px;
+	border: none;
+	box-shadow: var(--inset-shadow);
+	caret-color: rgb(170, 160, 160);
+}
+form input:focus {
+	outline: none;
+}
+
+
+
+/* button */
+button{
+	border: none;
+	background-color: #fff;
+	padding: 8px 80px;
+	border-radius: 30px;
+	font-size: 20px;
+	margin: 15px auto 8px auto;
+	box-shadow: var(--outset-shadow);
+	cursor: pointer;
+}
+
+
+
+
+/* links */
+p {
+	padding: 20px 0 15px 0;
+}
+
+.links span {
+	color: rgb(255, 166, 0);
+	cursor: pointer;
+}
+.links i {
+	font-size: 33px;
+	margin: 0 15px;
+	cursor: pointer;
+}
+.fa-facebook {
+	color: rgb(24, 24, 192);
+}
+.fa-twitter {
+	color: rgb(0, 153, 255);
+}
+.fa-instagram {
+	color: rgb(218, 39, 57);
+}
+.fa-github-alt {
+	color: rgb(81, 78, 79);
+}
